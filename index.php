@@ -19,7 +19,36 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
 
-        <h1>Chuppta? I'm a LAMP Developer AND WordPress Monkey.</h1>
+				<header>
+					<div id="header-brand">
+						<div class="container">
+
+							<div class="row">
+    						<div class="col">
+									<div class="text-center">eric_<span>pierpont(){</span></div>
+								</div><!-- END .col -->
+							</div><!-- END .row -->
+
+						</div><!-- END .container -->
+					</div><!-- END #header-brand -->
+
+					<div id="header-message">
+						<div class="container">
+
+							<div class="row">
+    						<div class="col-9">
+									<h1 class="text-right">Chuppta? I'm a <strong>LAMP Developer</strong><br/>AND <strong>WordPress Monkey</strong></h1>
+								</div><!-- END .col -->
+								<div class="col">
+									<figure></figure>
+								</div><!-- END .col -->
+							</div><!-- END .row -->
+						</div><!-- END .container -->
+
+					</div><!-- END #header-message -->
+				</header>
+
+
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>

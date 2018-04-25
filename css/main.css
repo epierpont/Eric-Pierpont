@@ -97,11 +97,55 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+html {
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
 
+header {
+	background-color: #141414;
+	background-image: url('../img/bg-header.jpg');
+	background-size: cover;
+	background-position: center;
+}
 
+#header-brand {
+	font-size: 1.8em;
+	color: #fff;
+	padding: .8em 0;
+}
 
+#header-brand span {
+	font-weight: 700;
+	color: #00ccc0;
+}
 
+#header-message {
+	background-image: radial-gradient( circle at top center, rgba( 255, 255, 255, .01 ) 0, rgba( 255, 255, 255, .1 ) );
+	padding: 12em 0;
+	background-position: center;
+}
 
+#header-message h1 {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	padding-top: 15px;
+}
+
+#header-message h1 strong {
+	font-weight: 700;
+}
+
+#header-message figure {
+	width: 125px;
+	height: 125px;
+	background-color: blue;
+	background-image: url('../img/face-eric-pierpont.jpg');
+	border-radius: 4px;
+	background-size: cover;
+	background-position-x: -9px;
+	box-shadow: 5px 5px 10px #050505;
+}
 
 
 
