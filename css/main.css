@@ -101,6 +101,27 @@ html {
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
 }
 
+h1, h2 {
+	font-weight: 300;
+}
+
+h1 span, h2 span, #header-brand span {
+	font-weight: 700;
+	background: linear-gradient(45deg, #00ccc0, #00cc86);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+}
+
+h1 {
+	font-size: 2.8rem;
+}
+
+h2 {
+	font-size: 1.6rem;
+}
+
+
 header {
 	background-color: #141414;
 	background-image: url('../img/bg-header.jpg');
@@ -114,21 +135,15 @@ header {
 	padding: .8em 0;
 }
 
-#header-brand span {
-	font-weight: 700;
-	color: #00ccc0;
-}
-
 #header-message {
 	background-image: radial-gradient( circle at top center, rgba( 255, 255, 255, .01 ) 0, rgba( 255, 255, 255, .1 ) );
-	padding: 12em 0;
+	padding: 12em 0 14em;
 	background-position: center;
 }
 
 #header-message h1 {
 	color: #fff;
 	text-transform: uppercase;
-	font-weight: 300;
 	padding-top: 15px;
 }
 
@@ -147,8 +162,14 @@ header {
 	box-shadow: 5px 5px 10px #050505;
 }
 
+#recent-projects {
+	background-color: #000;
+}
 
-
+#recent-projects h2 {
+	color: #c5c5c5;
+	padding: 1em 0;
+}
 
 
 
