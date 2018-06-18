@@ -171,7 +171,31 @@ header {
 	padding: 1em 0;
 }
 
+#recent-projects .image-container {
+	width: 100%;
+	height: 375px;
+	position: relative;
+	overflow: hidden;
+}
 
+#recent-projects .news-site-theme .project-bg {
+	background:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('http://ericpierpont.com/portfolio/img/bg-news.jpg');
+	height: 375px;
+	background-size: cover;
+	filter: grayscale(100%);
+}
+
+#recent-projects .news-site-theme .project-image {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	margin-left: -300px;
+	width: 234px;
+}
+
+#recent-projects .news-site-theme .project-image img {
+	width: 234px;
+}
 
 
 

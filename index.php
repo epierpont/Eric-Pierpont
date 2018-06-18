@@ -9,6 +9,7 @@
 
         <link rel="manifest" href="site.webmanifest">
         <link rel="apple-touch-icon" href="icon.png">
+				<link rel="icon" type="image/png" href="favicon.png">
         <!-- Place favicon.ico in the root directory -->
 
 				<link rel="stylesheet" href="css/vendor/bootstrap.min.css">
@@ -49,26 +50,34 @@
 				</header>
 
 				<section id="recent-projects">
-					<div class="container">
-						<div class="row">
-							<div class="col">
-								<h2 class="text-center">// recent <span>projects</span></h2>
-							</div><!-- END .col -->
-						</div>
-					</div><!-- END .container -->
+					<div class="row">
+						<div class="col">
+							<h2 class="text-center">// recent <span>projects</span></h2>
+						</div><!-- END .col -->
+					</div><!-- END .row -->
 
 					<div class="row no-gutters">
+
 						<div class="col">
-							<div class="project steamboat">
-								<h3>Steamboat Today</h3>
-							</div>
-						</div>
+							<div class="project news-site-theme">
+								<div class="image-container">
+									<div class="project-bg"></div>
+									<div class="project-image"><img src="http://ericpierpont.com/portfolio/img/pixel-news-site-theme.jpg" /></div>
+								</div><!-- END .image-container -->
+							</div><!-- END .project -->
+						</div><!-- END .col -->
+
 						<div class="col">
-							<div class="project summit">
-								<h3>Summit Daily</h3>
-							</div>
-						</div>
-					</div>
+							<div class="project news-site-theme">
+								<div class="image-container">
+									<div class="project-bg"></div>
+									<div class="project-image"><img src="http://ericpierpont.com/portfolio/img/pixel-news-site-theme.jpg" /></div>
+								</div><!-- END .image-container -->
+							</div><!-- END .project -->
+						</div><!-- END .col -->
+
+					</div><!-- END .row -->
+
 				</section>
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
