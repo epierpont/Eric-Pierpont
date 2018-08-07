@@ -171,33 +171,43 @@ header {
 	padding: 1em 0;
 }
 
-#recent-projects .image-container {
-	width: 100%;
-	height: 375px;
-	position: relative;
-	overflow: hidden;
+#recent-projects h3 {
+	color: #fff;
+	font-size: 1.1rem;
+	text-transform: uppercase;
+	font-weight: 700;
 }
 
-#recent-projects .news-site-theme .project-bg {
-	background:linear-gradient(0deg,rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('http://ericpierpont.com/portfolio/img/bg-news.jpg');
-	height: 375px;
-	background-size: cover;
-	filter: grayscale(100%);
+#recent-projects h3 span {
+	color: #c5c5c5;
 }
 
-#recent-projects .news-site-theme .project-image {
-	position: absolute;
-	top: 0;
-	left: 50%;
-	margin-left: -300px;
-	width: 234px;
+#recent-projects p {
+	color: #b4b4b4;
+	font-size: .875rem;
+	line-height: 2;
 }
 
-#recent-projects .news-site-theme .project-image img {
-	width: 234px;
+#recent-projects p a,
+#recent-projects i {
+	font-weight: 700;
+	background: linear-gradient(#00ccc0, #00cc86);
+ -webkit-background-clip: text;
+ -webkit-text-fill-color: transparent;
 }
 
+#recent-projects i {
+	font-size: 2.5rem;
+	margin-bottom: 1.5rem;
+}
 
+#recent-projects .project {
+	margin-bottom: 1.2rem;
+}
+
+#recent-projects span {
+	margin-bottom: 2rem;
+}
 
 
 
