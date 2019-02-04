@@ -60,17 +60,29 @@
 					<div class="container">
 
 						<div class="row">
-							<div class="col-6 project">
-								<i class="fas fa-newspaper"></i>
-								<h3>WP News Theme <span>/ Swift Communications</span></h3>
-								<p>I am responsible for the co-creation and day-to-day maintenance of a custom OOP WordPress theme currently driving many popular mountain town news sites. The theme is powering over 15 sites such as <a href="#">Aspen Times</a>, <a href="#">Vail Daily</a>, <a href="#">Steamboat Today</a>, <a href="#">Tahoe Daily Tribune</a> and more.</p>
+
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">// Swift Communications <span>WP News Theme</span></div>
+								  <img class="card-img-top" src="/img/work-aspen.jpg" alt="Card image cap">
+								  <div class="card-body">
+								    <p class="card-text">I am responsible for the co-creation and day-to-day maintenance of a custom OOP WordPress theme currently driving many popular mountain town news sites. The theme is powering over 15 sites such as Aspen Times, Vail Daily, Steamboat Today, Tahoe Daily Tribune and more.</p>
+								  </div>
+								</div>
 							</div>
-							<div class="col-6 project">
-								<i class="fas fa-camera"></i>
-								<h3>WP Media Center Theme <span>/ Swift Communications</span></h3>
-								<p>News publications require a method to display content from their SmugMug account on a platform independent of the main site. This theme is running <a href="#">Park Record Photos</a> and <a href="#">Summit Daily Photos</a>.</p>
+
+							<div class="col-md-6">
+								<div class="card">
+									<div class="card-header">Swift Communications - WP Media Center Theme</div>
+								  <img class="card-img-top" src="/img/work-park-record.jpg" alt="Card image cap">
+								  <div class="card-body">
+								    <h5 class="card-title">Card title</h5>
+								    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+								  </div>
+								</div>
 							</div>
-						</div><!-- END .row -->
+
+						</div>
 
 					</div>
 
