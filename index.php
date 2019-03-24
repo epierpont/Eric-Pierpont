@@ -97,24 +97,23 @@
 
 					<div class="container">
 
-					<div class="row">
-						<div class="col">
-							<h2 class="text-center">// about <span>me</span></h2>
-						</div><!-- END .col -->
-					</div><!-- END .row -->
+
 
 					<div class="row no-gutters">
 						<div class="col-6">
+
+							<h2>// about <span>me</span></h2>
+
 							<p><strong>Hi there</strong>, my name is Eric Pierpont and I am a web developer based in Steamboat Springs, CO. I grew up in Maine and attended the University of Maine where I earned my B.A. in New Media. I have been working in the industry since 2006 and have experience working for both private companies and as a contractor. I have a true passion for development which pushes me to learn something new with each and every project. It makes me smile to tell people that "I love what I do", and in the end I know that my work shows that.</p>
 
 							<p>When I am not playing web geek, you will most likely find me skiing, biking, fishing, camping, playing disc golf or any other excuse to be outside.</p>
 
 							<hr />
 
-							<div class="row">
+							<div class="row skill-set">
 
-								<div class="col">
-									<h4><i class="fas fa-medal"></i> <span>my forte</span></h4>
+								<div class="col forte">
+									<h4><span>my forte</span></h4>
 									<ul>
 										<li>PHP/MySQL</li>
 										<li>WordPress</li>
@@ -126,8 +125,8 @@
 									</ul>
 								</div>
 
-								<div class="col">
-									<h4><i class="fas fa-star"></i> <span>secondary</span></h4>
+								<div class="col secondary">
+									<h4><span>secondary</span></h4>
 									<ul>
 										<li>PHP/MySQL</li>
 										<li>HTML5/CSS3</li>
@@ -139,8 +138,8 @@
 									</ul>
 								</div>
 
-								<div class="col">
-									<h4><i class="fas fa-globe-americas"></i> <span>goals</span></h4>
+								<div class="col goals">
+									<h4><span>goals</span></h4>
 									<ul>
 										<li>PHP/MySQL</li>
 										<li>HTML5/CSS3</li>
@@ -159,15 +158,20 @@
 
 						<div class="col-5 experience">
 
+							<div class="row no-gutters title">
+								<div class="col-3 date"></div>
+								<div class="col-9"><h2>// my <span>experience</span></h2></div>
+							</div>
+
 							<div class="row no-gutters">
 								<div class="col-3 date">09.14 - Today</div>
-								<div class="col-9"><strong>Swift Communications</strong> | <span>Steamboat Springs, CO</span><br/>
+								<div class="col-9"><strong>Swift Communications</strong> | <span>Remote</span><br/>
 									WordPress Developer</div>
 							</div>
 
 							<div class="row no-gutters">
 								<div class="col-3 date">06.10 - 09.14</div>
-								<div class="col-9"><strong>Independent Contractor</strong> | <span>Steamboat Springs, CO</span><br/>
+								<div class="col-9"><strong>Independent Contractor</strong> | <span>Remote</span><br/>
 									Web Developer</div>
 							</div>
 
@@ -193,7 +197,10 @@
 
 							<hr />
 
-							<a class="btn btn-primary" href="#" role="button">Resume</a>
+							<div class="row no-gutters">
+								<div class="col-3 date"></div>
+								<div class="col-9"><a class="btn btn-primary" href="#" role="button">Resume</a></div>
+							</div>
 
 						</div>
 
@@ -203,9 +210,60 @@
 
 				</section>
 
+				<div class="divider">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				    <polygon fill="black" points="0,100 100,0 100,100"/>
+				  </svg>
+				</div>
+
 				<section id="recent-work">
 
-					<div class="row no-gutters">
+					<div class="row">
+						<div class="col text-center"><h2>// recent <span>projects</span></h2></div>
+					</div>
+
+					<div class="container">
+						<div class="row no-gutters">
+
+							<div class="col-4 px-lg-2">
+								<div class="card shadow">
+									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
+									<div class="card-body">
+										<img src="https://mfr.steamboattoday.com/wp-content/uploads/sites/8/2019/03/st-logo-2x.png" alt="SteamboatToday.com Logo">
+										<p class="card-text"><strong>Development</strong></p>
+										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-4 px-lg-2">
+								<div class="card">
+									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
+									<div class="card-body">
+										<img src="https://mfr.steamboattoday.com/wp-content/uploads/sites/8/2019/03/st-logo-2x.png" alt="SteamboatToday.com Logo">
+										<p class="card-text"><strong>Development</strong></p>
+										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-4 px-lg-2">
+								<div class="card">
+									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
+									<div class="card-body">
+										<img src="https://mfr.steamboattoday.com/wp-content/uploads/sites/8/2019/03/st-logo-2x.png" alt="SteamboatToday.com Logo">
+										<p class="card-text"><strong>Development</strong></p>
+										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+
+
+					<!--<div class="row no-gutters">
 
 						<div class="col-3 text-center">
 							<div class="container d-flex h-100">
@@ -233,7 +291,7 @@
 							</div>
 						</div>
 
-					</div>
+					</div>-->
 
 				</section>
 

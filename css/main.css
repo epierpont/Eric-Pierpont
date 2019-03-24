@@ -192,7 +192,7 @@ header {
 }
 
 #recent-projects .card-text {
-	font-size: .875rem;
+	font-size: .9rem;
 	line-height: 1.8rem;
 }
 
@@ -209,22 +209,49 @@ header {
 
 }
 
+
+
 #recent-work {
 	background-color: #000;
+	padding-bottom: 4rem;
+}
+
+#recent-work h2 {
+	margin-bottom: 1.3rem;
+	padding: 1rem;
 }
 
 #recent-work .card {
 	border: 0;
+	font-size: .9rem;
+	background-color: #000;
+	overflow: hidden;
 }
 
-#recent-work .card-img-top {
-	border-radius: 0;
+#recent-work .card-body {
+	background-color: #fff;
 }
 
-#recent-work img {
+#recent-work .card-body img {
+	max-width: 13rem;
+	margin-bottom: .8rem;
+}
+
+#recent-work img.card-img-top:hover {
+	opacity: 1;
+}
+
+#recent-work img.card-img-top {
+	opacity: .8;
+	transition: all .2s;
+}
+
+
+
+/*#recent-work img {
 	-webkit-filter: grayscale(100%);
 	filter: grayscale(100%);
-}
+}*/
 
 #recent-work h2 {
 	color: #c5c5c5;
@@ -252,6 +279,10 @@ header {
 	color: #000;
 	font-size: 1rem;
 	font-weight: 100;
+}
+
+#about-me h4 span {
+	font-weight: 400;
 }
 
 #about-me ul {
@@ -286,9 +317,28 @@ header {
 	margin-bottom: 2rem;
 }
 
+#about-me .experience .row.title {
+	margin-bottom: 0;
+}
+
 #about-me .experience span {
 	font-weight: 400;
 }
+
+#about-me .experience .row.title span {
+	font-weight: 700;
+}
+
+#about-me .skill-set {
+	text-align: center;
+}
+
+#about-me .skill-set .forte,
+#about-me .skill-set .secondary {
+	border-right: 1px solid #efefef;
+}
+
+
 
 .divider {
 	background: linear-gradient(45deg, #00ccad, #00cc86);
@@ -312,6 +362,13 @@ header {
 	color: #ff9752;
 	font-weight: 700;
 	text-transform: lowercase;
+	font-size: .9rem;
+	padding: .3rem 1rem;
+}
+
+.btn:hover {
+	background-color: #00ccad;
+	border: 1px solid #00ccad;
 }
 
 /*#about-me .card {
