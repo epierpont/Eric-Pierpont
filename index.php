@@ -50,54 +50,72 @@
 					</div><!-- END #header-message -->
 				</header>
 
-				<!--<section id="recent-projects">
-					<div class="row">
-						<div class="col">
-							<h2 class="text-center">// recent <span>projects</span></h2>
-						</div>
-					</div>
-
-					<div class="container">
-
-						<div class="row">
-
-							<div class="col-md-6">
-								<div class="card">
-									<div class="card-header"><strong>WP News Theme</strong> - Swift Communications</div>
-								  <a href="#"><img class="card-img-top" src="/img/work-aspen-pixel.jpg" alt="Card image cap"></a>
-								  <div class="card-body">
-								    <p class="card-text">I am responsible for the co-creation and day-to-day maintenance of a custom OOP WordPress theme currently driving many popular mountain town news sites. The theme is powering over 15 sites such as <a href="#">Aspen Times</a>, <a href="#">Vail Daily</a>, <a href="#">Steamboat Today</a>, <a href="#">Tahoe Daily Tribune</a> and more.</p>
-								  </div>
-								</div>
-							</div>
-
-							<div class="col-md-6">
-								<div class="card">
-									<div class="card-header"><strong>WP Media Center Theme</strong> - Swift Communications</div>
-								  <a href="#"><img class="card-img-top" src="/img/work-park-record.jpg" alt="Card image cap"></a>
-								  <div class="card-body">
-								    <p class="card-text">News publications require a method to display content from their SmugMug account on a platform independent of the main site. This theme is running <a href="#">Park Record Photos</a>.</p>
-								  </div>
-								</div>
-							</div>
-
-						</div>
-
-					</div>
-
-				</section>-->
-
 				<div class="divider">
 					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
 				    <polygon fill="white" points="0,100 100,0 100,100"/>
 				  </svg>
 				</div>
 
-				<section id="about-me">
+				<section id="recent-work">
+
+					<div class="row">
+						<div class="col text-center"><h2>// recent <span>projects</span></h2></div>
+					</div>
 
 					<div class="container">
 
+						<div class="row no-gutters">
 
+							<div class="col-4 px-lg-3">
+								<div class="card shadow">
+									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
+									<div class="card-body">
+										<img src="/img/logo-steamboat.png" alt="Steamboat Logo">
+										<p class="card-text"><strong>Development</strong></p>
+										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-4 px-lg-3">
+								<div class="card">
+									<a href="#"><img class="card-img-top" src="/img/work-park-record.jpg" alt="Card image cap"></a>
+									<div class="card-body">
+										<img src="/img/logo-park-record.png" alt="Park Record Logo">
+										<p class="card-text"><strong>Development</strong></p>
+										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="col-4 px-lg-3">
+								<div class="card">
+									<a href="#"><img class="card-img-top" src="/img/work-healthy-beginnings.jpg" alt="Card image cap"></a>
+									<div class="card-body">
+										<img src="/img/logo-healthy-beginnings.png" alt="Healthy Beginnings Logo">
+										<p class="card-text"><strong>Development</strong></p>
+										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+
+				</section>
+
+
+
+				<div class="divider">
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none">
+				    <polygon fill="#f7f7f7" points="0,100 100,0 100,100"/>
+				  </svg>
+				</div>
+
+
+				<section id="about-me">
+
+					<div class="container">
 
 					<div class="row no-gutters">
 						<div class="col-6">
@@ -151,6 +169,15 @@
 								</div>
 
 							</div>
+
+							<hr />
+							<p class="text-center">
+								<a href="#" class="email">info@ericpierpont.com</a>
+								<a href="#"><i class="fab fa-facebook-f"></i></a>
+								<a href="#"><i class="fab fa-instagram"></i></a>
+								<a href="#"><i class="fab fa-linkedin-in"></i></a>
+								<a href="#"><i class="fab fa-stack-overflow"></i></a>
+							<a href="#" class="phone">207.838.3500</a></p>
 
 						</div><!-- END .col -->
 						<div class="col-1"></div>
@@ -216,86 +243,13 @@
 				  </svg>
 				</div>
 
-				<section id="recent-work">
-
-					<div class="row">
-						<div class="col text-center"><h2>// recent <span>projects</span></h2></div>
-					</div>
+				<footer>
 
 					<div class="container">
-						<div class="row no-gutters">
-
-							<div class="col-4 px-lg-2">
-								<div class="card shadow">
-									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<img src="https://mfr.steamboattoday.com/wp-content/uploads/sites/8/2019/03/st-logo-2x.png" alt="SteamboatToday.com Logo">
-										<p class="card-text"><strong>Development</strong></p>
-										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-4 px-lg-2">
-								<div class="card">
-									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<img src="https://mfr.steamboattoday.com/wp-content/uploads/sites/8/2019/03/st-logo-2x.png" alt="SteamboatToday.com Logo">
-										<p class="card-text"><strong>Development</strong></p>
-										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
-									</div>
-								</div>
-							</div>
-
-							<div class="col-4 px-lg-2">
-								<div class="card">
-									<a href="#"><img class="card-img-top" src="/img/work-steamboat.jpg" alt="Card image cap"></a>
-									<div class="card-body">
-										<img src="https://mfr.steamboattoday.com/wp-content/uploads/sites/8/2019/03/st-logo-2x.png" alt="SteamboatToday.com Logo">
-										<p class="card-text"><strong>Development</strong></p>
-										<p class="card-text">Duis quis enim nec sapien fringilla interdum. Ut faucibus blandit mauris, rutrum varius lorem ultrices nec. Duis eu porta felis. Integer aliquam est sapien, a tristique ante ornare eget. Nam vel lacinia eros. Proin viverra ut mauris ac consequat. Proin malesuada dui tincidunt, euismod justo vitae, vestibulum nulla. Nunc tristique finibus sem eget feugiat.</p>
-									</div>
-								</div>
-							</div>
-
-						</div>
+						<div class="text-center"><span>}</span></div>
 					</div>
 
-
-
-					<!--<div class="row no-gutters">
-
-						<div class="col-3 text-center">
-							<div class="container d-flex h-100">
-							    <div class="row justify-content-center align-self-center w-100">
-							    	<h2>// recent <span>projects</span></h2>
-							    </div>
-							</div>
-						</div>
-
-						<div class="col">
-							<div class="card">
-								<a href="#"><img class="card-img-top" src="/img/work-vail.jpg" alt="Card image cap"></a>
-							</div>
-							<div class="card">
-								<a href="#"><img class="card-img-top" src="/img/work-vail.jpg" alt="Card image cap"></a>
-							</div>
-						</div>
-
-						<div class="col">
-							<div class="card">
-								<a href="#"><img class="card-img-top" src="/img/work-park-record.jpg" alt="Card image cap"></a>
-							</div>
-							<div class="card">
-								<a href="#"><img class="card-img-top" src="/img/work-park-record.jpg" alt="Card image cap"></a>
-							</div>
-						</div>
-
-					</div>-->
-
-				</section>
-
-
+				</footer>
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
