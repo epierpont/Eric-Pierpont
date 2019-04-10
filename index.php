@@ -122,7 +122,7 @@
 
 							<h2>// about <span>me</span></h2>
 
-							<p><strong>Hi there</strong>, my name is Eric Pierpont and I am a web developer based in Steamboat Springs, CO. I grew up in Maine and attended the University of Maine where I earned my B.A. in New Media. I have been working in the industry since 2006 and have experience working for both private companies and as a contractor. I have a true passion for development which pushes me to learn something new with each and every project. It makes me smile to tell people that "I love what I do", and in the end I know that my work shows that.</p>
+							<p><strong>Hi there</strong>, my name is Eric Pierpont and I am a web developer based out of Steamboat Springs, CO. I grew up in Maine and attended the University of Maine where I earned my B.A. in New Media. I have been working in the industry since 2006 and have experience working for both private companies and as a contractor. I have a true passion for development which pushes me to learn something new with each and every project. It makes me smile to tell people that "I love what I do", and in the end I know that my work shows that.</p>
 
 							<p>When I am not playing web geek, you will most likely find me skiing, biking, fishing, camping, playing disc golf or any other excuse to be outside.</p>
 
@@ -135,36 +135,32 @@
 									<ul>
 										<li>PHP/MySQL</li>
 										<li>WordPress</li>
-										<li>HTML5/CSS3</li>
+										<li>HTML/CSS</li>
 										<li>Bootstrap</li>
 										<li>Sass</li>
 										<li>Git</li>
-										<li>JIRA</li>
+										<li>Agile/Scrum</li>
 									</ul>
 								</div>
 
 								<div class="col secondary">
 									<h4><span>secondary</span></h4>
 									<ul>
-										<li>PHP/MySQL</li>
-										<li>HTML5/CSS3</li>
-										<li>Bootstrap</li>
-										<li>Sass</li>
-										<li>Javascript/jQuery</li>
-										<li>Git</li>
-										<li>JIRA</li>
+										<li>OOP</li>
+										<li>JavaScript/jQuery</li>
+										<li>React</li>
+										<li>NPM</li>
+										<li>NodeJS</li>
+										<li>CLI</li>
 									</ul>
 								</div>
 
 								<div class="col goals">
-									<h4><span>goals</span></h4>
+									<h4><span>other</span></h4>
 									<ul>
-										<li>PHP/MySQL</li>
-										<li>HTML5/CSS3</li>
-										<li>Sass</li>
-										<li>Javascript/jQuery</li>
-										<li>Git</li>
-										<li>JIRA</li>
+										<li>RE Investments</li>
+										<li>Long Term Rentals</li>
+										<li>Property Management</li>
 									</ul>
 								</div>
 
